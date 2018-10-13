@@ -49,6 +49,7 @@ nav a {
 /*remove border next to contact*/
 .br{
     border-right: 0;
+    margin-right: 0;
 }
 /*clear fix*/
 .cf {
@@ -89,9 +90,8 @@ h2{
     margin-top: 20px;
     font-size: 16px;
     line-height: 24px;
-    text-align: justify;
-    
 }
+
  /*footer styling*/
  .footer {
     width:100%;
@@ -106,4 +106,48 @@ h2{
     font-size: 12px;
 }
 
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+    .top {
+        max-width: 780px;
+    }
+}
 
+/* width at 768px and below */
+@media screen and (max-width: 768px) {
+    .top {
+        max-width: 680px;
+    }
+
+}
+
+/* width at 640px and below */
+@media screen and (max-width: 640px) {
+    .name {
+       float: none;
+       width: 100%;
+    }
+    .hank {
+        width: 100%;
+    }
+    .nav {
+       float: none;
+       text-align: center;
+       padding-bottom: 10px;
+       width: 100%;
+       
+    }
+    .bio-pic {
+        float: none;
+        margin: auto;
+        display: block;
+    }
+    .bio {
+        float: none;
+    }
+    .cf{
+        overflow: hidden;
+    }
+
+    
+}

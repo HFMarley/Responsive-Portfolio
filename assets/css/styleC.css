@@ -101,3 +101,75 @@ h2{
     padding: 30px 0 5px 0;
     font-size: 12px;
 }
+
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+    .top {
+        max-width: 780px;
+    }
+    .container {
+        max-width: 770px;
+    }
+    .content {
+        width: auto;
+    }
+    .name-email {
+        width: 100%;
+    }
+    .resize {
+        width: 100%; 
+    }
+}
+
+/* width at 768px and below */
+@media screen and (max-width: 768px){
+    .top {
+        max-width: 680px;
+    }
+    .container {
+        max-width: 680
+    }
+    .content {
+        width: auto;
+    }
+    .name-email {
+        width: 100%;
+    }
+    .resize {
+        width: 100%;
+    }
+}
+
+/* width at 640px and below */
+@media screen and (max-width: 640px) {
+    .name {
+        float: none;
+        width: auto;
+     }
+     .hank {
+         width: 100%;
+         text-align: center;
+     }
+     .nav {
+        float: none;
+        padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
+     }
+     .cf {
+         overflow: hidden;
+     }
+     .container {
+         max-width: 550px;
+     }
+     .content {
+         width: auto;
+     }
+     .name-email {
+         width: 100%;
+     }
+     .resize {
+         width: 100%
+     }
+     
+}
